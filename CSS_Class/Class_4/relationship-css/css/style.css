@@ -1,0 +1,59 @@
+/*
+Direct Child Relationship: 
+    - Direct Child targeting with CSS. We can use the > operator to specifically select a child of
+        the parent. > ONLY targets the child DIRECTLY AFTER the parent! IT MUST be RIGHT AFTER the parent
+
+    - ex) section > p:
+    - THIS WORKS!
+        <section>
+            <p></p>
+        </section>
+
+    - This does NOT work!
+        <section>
+            <article>
+                <p></p>
+            </article>
+        </section>
+    
+    - The p tag does NOT follow the section tag directly afterwards. Article comes after section.
+
+Siblings:
+    - We can use the + operator to target siblings 
+    - Ex)
+
+        p + p {
+            ...
+        }
+
+        <section>
+            <p>...</p>
+            <p>...</p>
+        </section>
+
+    - The p + p targets these two siblings
+*/
+
+h1 {
+    color: purple;
+}
+
+section > h2 {
+    color: blue;
+}
+
+article > h2 {
+    color: red;
+}
+
+/*
+section > article > h2 {
+    color: orange;
+}
+*/
+
+/* We can just use the Cascade to do the same effect as > */
+/* The specificity allows us to target this specific element */
+section article h2 {
+    color: orange;
+}
