@@ -1,0 +1,25 @@
+/* Please Make only Rhino and Zebra Blue */
+#rhino, #zebra {
+    color: blue;
+}
+
+/* Please Make only Hufflepuff Gold */
+#bestHouse {
+    color: gold;
+}
+
+/* Please select Duck with the highest level of specificity possible */
+/* 
+    - No spaces means find all of these selectors and classes 
+    - If we have a space, then we create a parent-child relationship.
+    - We're looking for a h2 that has those 2 classes listed below.
+    - We can chain together multiple IDs and classes.
+*/
+html > body > h1#hi + section.top + section.middle + article.areDucksDinosaurs > h2.likesToQuack.fight1Or100 {
+    color: gray !important;
+}
+
+/* Please select Rhino with the highest level of specificity possible */
+#rhino {
+    color: red;
+}
