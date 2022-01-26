@@ -1,0 +1,30 @@
+/* Styling Sheet for Layout_1.html */
+
+
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    border: 3px solid black;
+    height: 100px;
+    clear: both;
+}
+
+section {
+    float: left;
+    
+    border: 3px solid black;
+}
+
+.main-section {
+    width: 33.333%;
+
+    height: 200px;
+}
+
+.secondary-section {
+    width: 50%;
+
+    height: 300px;
+}

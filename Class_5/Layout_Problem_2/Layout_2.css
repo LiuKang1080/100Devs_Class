@@ -1,0 +1,37 @@
+/* Styling Sheet for Layout_2.html */
+
+
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    border: 3px solid black;
+    height: 100px;
+    clear: both;
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+
+    border: 3px solid black;
+    height: 200px;
+}
+
+/* General section targeting */
+.secondary-section {
+    float: left;
+    
+    border: 3px solid black;
+    height: 300px;
+}
+
+/* Specific section targeting */
+#section-2 {
+    width: 40%;
+}
+
+#section-3 {
+    width: 60%;
+}
