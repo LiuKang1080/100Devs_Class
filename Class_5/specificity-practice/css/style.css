@@ -20,6 +20,6 @@ html > body > h1#hi + section.top + section.middle + article.areDucksDinosaurs >
 }
 
 /* Please select Rhino with the highest level of specificity possible */
-#rhino {
-    color: red;
+html > body > h1#hi + section.middle + section.top h2#zebra.africa.fourLegs + h2#rhino.africa.fourLegs {
+    color: red !important;
 }
