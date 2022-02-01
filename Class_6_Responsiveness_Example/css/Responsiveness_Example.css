@@ -1,0 +1,30 @@
+/* Styling Sheet for Responsiveness_Example.html */
+
+
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    clear: both;
+    
+    background: gray;
+    border: 3px solid black;
+}
+
+section {
+    height: 300px;
+    float: left;
+    width: 33.33%;
+    
+    background: lightblue;
+    border: 3px solid black;
+}
+
+@media screen and (max-width:1000px) {
+    section {
+        float: none;
+        width: auto;
+    }
+}
