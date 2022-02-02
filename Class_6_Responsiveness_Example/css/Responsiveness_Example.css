@@ -1,4 +1,5 @@
 /* Styling Sheet for Responsiveness_Example.html */
+/* We need to use 3 Media Queries */
 
 
 * {
@@ -22,9 +23,21 @@ section {
     border: 3px solid black;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 750px) {
     section {
         float: none;
         width: auto;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1250px) {
+    section {
+        float: left;
+        width: 50%;
+    }
+
+    .last-section {
+        float: left;
+        width: 100%;
     }
 }
