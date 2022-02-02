@@ -1,0 +1,72 @@
+/* Styling Sheet for Responsiveness_Example_2.html */
+/* We need to use 3 Media Queries */
+
+
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    clear: both;
+    
+    border: 3px solid black;
+}
+
+section {
+    height: 300px;
+    float: left;
+    width: 20%;
+
+    border: 3px solid black;
+}
+
+.main-section {
+    height: 300px;
+    float: left;
+    width: 40%;
+
+    border: 3px solid black;
+}
+
+/* Media Queries */
+/* Media Query - Smallest Screen */
+@media screen and (max-width: 500px){
+    section {
+        width: 100%;
+    }
+
+    .main-section {
+        width: 100%;
+    }
+}
+
+/* Media Query - Medium Screen */
+@media (min-width: 501px) and (max-width: 1000px){
+    section {
+        width: 25%;
+    }
+
+    .main-section {
+        width: 75%;
+    }
+
+    .secondary-section {
+        width: 50%;
+    }
+}
+
+/* Media Query - Large Screen */
+@media (min-width: 501px) and (max-width: 1250px){
+    section {
+        width: 25%;
+    }
+
+    .main-section {
+        width: 25%;
+    }
+
+    .secondary-section {
+        width: 25%;
+    }
+}
