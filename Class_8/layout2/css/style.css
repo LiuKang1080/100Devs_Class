@@ -1,0 +1,62 @@
+/* Styling Sheet for Layout_2.html */
+
+* {
+  	box-sizing: border-box;
+}
+
+header {
+	clear: both;
+	height: 4em;
+
+	border: 2px solid gray;
+}
+
+header a, header form {
+	margin-top: 1em;
+}
+
+header h2 {
+	margin-top: 12px;
+}
+
+header > * {
+  	float: left;
+  	width: 25%;
+  	list-style: none;
+}
+
+header li {
+  	float: left;
+  	width: 33.333%;
+}
+
+header a:link, header a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+main > section {
+	float: left;
+	width: 50%;
+	height: 600px;
+}
+
+img {
+	width:50%;
+	margin-left: 25em;
+}
+
+.main-description {
+	margin-top: 10em;
+}
+
+section a {
+	border-radius: 0.5em;
+	padding: 10px 10px;
+
+	background-color: rgb(66, 135, 245);
+	color: white;
+	text-decoration: none;
+	
+	margin-right: 0.50em;
+}

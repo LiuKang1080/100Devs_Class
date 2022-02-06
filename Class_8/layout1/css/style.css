@@ -1,0 +1,60 @@
+/* Style Sheet for Layout_1.html */
+
+
+/* Box Model */
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    float: left;
+    width: 10%;
+}
+
+main {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 40%;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+.techcrunch-logo {
+    margin-left: 1em;
+}
+
+.extra-crunch-header {
+    margin-left: 1em;
+    color: orange;
+}
+
+.main-img {
+    width: 75%;
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    padding-bottom: 0.5em;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid gray;
+}
+
+

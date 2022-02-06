@@ -1,0 +1,66 @@
+/* Styling Sheet for Layout_3.html */
+
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: black;
+	height: 60px;
+	color: white;
+}
+
+header * {
+	float: left;
+	width: 10%;
+
+	color: white;
+	list-style: none;
+}
+
+header img, header a, header form {
+	margin-top: 1.25em;
+
+	/* for link */
+	text-decoration: none;
+}
+
+header ul {
+	width: 65%;
+}
+
+header ul li {
+	width: 10%;
+	margin-top: -1em;
+}
+
+header form input {
+	width: 100%;
+}
+
+.BBC-logo {
+	margin-left: 1em;
+}
+
+input {
+	color: gray;
+}
+
+main > section {
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+
+main section + section section {
+	float: left;
+	width: 50%;
+	height: 250px;
+}
+
+section section {
+	float: left;
+	width: 33.333%;
+	padding: 1em;
+}
