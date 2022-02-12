@@ -1,0 +1,87 @@
+/* Styling Sheet for Layout_4.html */
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* 
+==========
+Header
+==========
+*/
+.header-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+
+    background: rgb(102,118,138);
+}
+
+.header-flex div {
+    margin-left: 2em;
+}
+
+.header-flex div a {
+    color: white;
+    text-decoration: none;
+}
+
+#second-nav-link {
+    margin-left: 1em;
+}
+
+header img {
+    color: white;
+}
+
+#donate-link {
+    text-decoration: none;
+    padding: 0.5em 1em 0.5em 1em;
+    margin-right: 2em;
+
+    border-radius: 0.25em;
+    background: white;
+    color: rgb(102,118,138);
+}
+
+/* 
+==========
+Section 1
+==========
+*/
+.first-section-flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 1em;
+
+    background: rgb(102,118,138);
+    color: white;
+}
+
+.first-section-flex p {
+    font-size: 1.25em;
+}
+
+.first-section-flex span {
+    font-style: italic;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
