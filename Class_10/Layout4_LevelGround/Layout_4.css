@@ -17,7 +17,7 @@ Header
     align-items: center;
     padding: 1em;
 
-    background: rgb(102,118,138);
+    background: rgb(102, 118, 138);
 }
 
 .header-flex div {
@@ -44,7 +44,7 @@ header img {
 
     border-radius: 0.25em;
     background: white;
-    color: rgb(102,118,138);
+    color: rgb(102, 118, 138);
 }
 
 /* 
@@ -58,12 +58,13 @@ Section 1
     align-items: center;
     padding: 1em;
 
-    background: rgb(102,118,138);
+    background: rgb(102, 118, 138);
     color: white;
 }
 
 .first-section-flex p {
     font-size: 1.25em;
+    max-width: 60em;
 }
 
 .first-section-flex span {
@@ -71,17 +72,96 @@ Section 1
     color: black;
 }
 
+/* 
+==========
+Section 2
+==========
+*/
+.second-section-flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
 
+.second-section-flex h3 {
+    font-size: 30px;
+}
 
+.second-section-flex p {
+    max-width: 30em;
+}
 
+/* 
+==========
+Section 3
+==========
+*/
+.third-section-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 
+    background-color: rgb(219, 223, 226);
+}
 
+.card-flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 30em;
+    padding: 2em;
+}
 
+.card-flex div {
+    height: 10em;
+    width: 20em;
+    background-color: rgb(102, 118, 138);
+}
+.card-flex a {
+    padding: 1.5em 3em;
+    margin-top: 1em;
+    text-decoration: none;
+    
 
+    border: 1px solid black;
+    color: rgb(38, 46, 57);
+}
 
+/* 
+==========
+Section Final
+==========
+*/
+.final-section-flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
 
+.final-section-flex h3 {
+    font-size: 30px;
+}
 
+.final-section-flex p {
+    max-width: 30em;
+}
 
+.final-section-flex a {
+    padding: 1.5em 3em;
+    margin-top: 1em;
+    text-decoration: none;
+    
 
+    border: 1px solid black;
+    color: rgb(38, 46, 57);
+}
 
-
+footer {
+    text-align: center;
+}
