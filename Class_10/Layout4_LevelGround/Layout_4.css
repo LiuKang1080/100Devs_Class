@@ -3,6 +3,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* 
@@ -22,6 +24,10 @@ Header
 
 .header-flex div {
     margin-left: 2em;
+}
+
+.header-flex img {
+    margin-left: -2em;
 }
 
 .header-flex div a {
