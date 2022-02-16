@@ -1,0 +1,74 @@
+/* Styling sheet for Layout_5.html */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+==========
+Header
+==========
+*/
+.header-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+
+    background: rgb(245, 249, 252);
+}
+
+.header-flex ul {
+    list-style: none;
+}
+
+.header-flex li {
+    float: left;
+    margin: 1em 2em;
+}
+
+.header-flex ul li a {
+    text-decoration: none;
+    color: rgb(98, 117, 133);
+}
+
+#header-logo-link {
+    margin-left: 1em;    
+    text-decoration: none;
+
+    font-size: 1.5em;
+    color: rgb(45, 68, 87);
+}
+
+#header-button {
+    margin-right: 1em;
+    text-decoration: none;
+
+    padding: 0.75em 1.5em;
+    background: rgb(48, 70, 89);
+    color: white;
+}
+
+/* 
+==========
+First Main Section
+==========
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
