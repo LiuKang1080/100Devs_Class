@@ -29,3 +29,11 @@ function convert_temp() {
 
     document.querySelector("#result").innerText = fahren;
 }
+
+
+function test() {
+    let x = 5;
+    document.querySelector("#test").innerText = x;
+}
+
+document.querySelector("#temp").addEventListener("click", test());
