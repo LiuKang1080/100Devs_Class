@@ -7,7 +7,8 @@ console.log(x);
 let y = 100;
 y += 10;
 
-alert(y);
+console.log(y);
+// alert(y);
 
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
@@ -38,3 +39,8 @@ function multiply(x, y, z) {
         alert("ZEBRA");
     }
 }
+
+let n = [];
+n.push(50);
+
+console.log(n[0]);
