@@ -1,0 +1,24 @@
+/* Styling Sheet for Testing.html */
+
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+section {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-content: center;
+	padding: 0.5em 1em;
+	margin-bottom: 0.5em;
+
+	border: 1px solid black;
+	background: lightgray;
+}
