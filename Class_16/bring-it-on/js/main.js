@@ -22,9 +22,31 @@ function division(x, y) {
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
-
+function add_if(x, y) {
+    if ((x + y) > 50) {
+        alert("Jumanji!");
+    }
+}
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
+function multiply_nums(x, y, z) {
+    let prod = x * y * z;
+
+    if ((prod % 3) === 0) {
+        alert("ZEBRA");
+    } else {
+        console.log("Product is not divisible by 3.");
+    }
+}
 
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
+function print_string(string, n) {
+    /*
+        - Print the string n number of times
+    */
+    
+    for (let i = 1; i <= n; i++) {
+        console.log(string);
+    }
+}

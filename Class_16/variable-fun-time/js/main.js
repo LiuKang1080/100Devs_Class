@@ -1,4 +1,4 @@
-//--- Easy
+//--- Easy ---
 //create a variable and assign it a number
 let num = 25;
 
@@ -8,7 +8,7 @@ num - 10;
 //print that number to the console
 console.log(num);
 
-//--- Medium
+//--- Medium ---
 //create a variable that holds a value from the input
 let input_value = document.querySelector("#danceDanceRevolution").value;
 
@@ -18,7 +18,7 @@ input_value + 25;
 //alert that number
 alert(input_value);
 
-//--- Hard
+//--- Hard ---
 //create a variable that holds the h1
 let header_1 = document.querySelector("h1");
 
