@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+.hidden {
+	display: none;
+}
+
+.animated {
+	animation: fade-in 1s ease;
+}
+
+@keyframes fade-in {
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+/* ===== Body ===== */
+header {
+  	background-image: url("https://cdn.glitch.global/ae3ecdd8-3eff-4094-ac83-ef77d187ae5b/Marvel%3ADC.jpg?v=1646958932327");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: contain;
+  	border: solid 3px red;
+  	height: 400px;
+  	font-size: 90px;
+  	font-weight: bolder;
+  	padding-top: 100px;
+  	background-color: black;
+}
+
+h1 {
+  	text-align: center;
+  	font-size: 40px;
+	color: #871111;
+	font-weight: bolder;
+	font-family: 'Mukta', sans-serif;
+}
+
+/* ===== Section 2 ===== */
+#alphaone {
+	border: solid 3px red;
+	background-color: #353939;
+}
+
+#alphaone iframe {
+	border: solid 3px red;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	font-family: 'Mukta', sans-serif;
+}
+
+img {
+	width: 18%;
+	height: auto;
+	border: solid 3px red;
+}
