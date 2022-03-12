@@ -23,59 +23,31 @@ function toggleHidden(idOne, idTwo, idThree) {
     // Log the events:
     // console.log(`IDs passed in: ${idOne} ${idTwo} ${idThree}`);
 
-    // Call the toggleAddHidden() function and pass in idOne
-    toggleAddHidden(idOne, idListOne);
-    // Call the toggleRemoveHidden() function; pass in idTwo
-    toggleRemoveHidden(idTwo, idListTwo);
-    // Call the toggleRemoveHidden() function again, but pass in final parameter idThree
-    toggleRemoveHidden(idThree, idListThree);
-    
+    toggleHiddenList(idOne, idListOne);
+    toggleHiddenList(idTwo, idListTwo, false);
+    toggleHiddenList(idThree, idListThree, false);
+
     // Add the class attribute "animated" for the specfic character by using idTwo and idThree
-    document.querySelector(idTwo).classList.add("animeated");
-    document.querySelector(idThree).classList.add("animeated");
+    document.querySelector(idTwo).classList.add("animated");
+    document.querySelector(idThree).classList.add("animated");
 }
 
-function toggleAddHidden(idFilter, idList) {
-    /*
-        Parameters: 
-            [idFilter] - This is the id we want to filter to apply the toggle feature to.
-            [idList] - This is the array we want to iterate through. 
-
-        1) Loop through idListOne using a for of loop
-        2) If the iteration element is equal to the idFilter then we TOGGLE the class attribute "hidden".
-        3) Else if the element is not equal to the idFilter, we then ADD the class attribute "hidden".
-    */
-    
+function toggleHiddenList(idFilter, idList, isAdd = true) {
     for (const ID of idList) {
         // check to see if the current element is equal to the idFilter
         if (ID === idFilter) {
             // TOGGLE the class attribute "hidden"
             document.querySelector(idFilter).classList.toggle("hidden");
         } else {
-            // for all of the other elements in the array, ADD the class attribute "hidden".
-            document.querySelector(ID).classList.add("hidden");
-        }
-    }
-}
-
-function toggleRemoveHidden(idFilter, idList) {
-    /*
-        Parameters: 
-            [idFilter] - This is the id we want to filter to apply the toggle feature to.
-            [idList] - This is the array we want to iterate through.
-
-        1) We call this function if we're going to loop through idListTwo or idListThree
-        2) If the iteration element is equal to the idFilter then we TOGGLE the class attribute "hidden".
-        3) Else if the element is not equal to the idFilter, we then REMOVE the class attribute "hidden". 
-    */
-
-    for (const ID of idList) {
-        if (ID === idFilter) {
-            // TOGGLE the class attribute "hidden"
-            document.querySelector(idFilter).classList.toggle("hidden");
-        } else {
-            // for all of the other elements in the array, REMOVE the class attribute "hidden".
-            document.querySelector(ID).classList.remove("hidden");
+            const elmClassList = document.querySelector(ID).classList;
+            
+            if (isAdd) {
+                // for all of the other elements in the array, ADD the class attribute "hidden".
+                elmClassList.add("hidden");
+            } else {
+                // for all of the other elements in the array, REMOVE the class attribute "hidden".
+                elmClassList.remove("hidden");
+            }
         }
     }
 }
