@@ -1,10 +1,10 @@
 //Get a dog photo from the dog.ceo api and place the photo in the DOM
-const span_button = document.querySelector("span");
+const button = document.querySelector("a");
 const image = document.querySelector("img");
 const URL = "https://dog.ceo/api/breeds/image/random";
 
 // when we click on the button, generate the image
-span_button.addEventListener("click", generate_image);
+button.addEventListener("click", generate_image);
 
 
 function generate_image() {
@@ -18,6 +18,7 @@ function generate_image() {
             image.src = data.message;
         })
 }
+
 
 // Resources to use the fetch() method from the fetch API
 // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
