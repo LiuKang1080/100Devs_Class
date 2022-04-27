@@ -13,6 +13,11 @@ Given two integer arrays a, b, both of length >= 1, create a program that return
 in a is strictly greater than the sum of the cubes of each element in b.
 */
 function array_sum_check(arr_a, arr_b) {
+    /*
+        - Manual approach:
+        - Time complexity O(n x m): where n is the length of array a, and m is the length of array b.
+        - Space complexity O(n || m): Here the maximum space complexity is the length of the highest array.
+    */
     let arr_a_sum = 0;
     let arr_b_sum = 0;
 
