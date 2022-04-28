@@ -1,22 +1,12 @@
-/******************************************
-/* CSS
-/*******************************************/
+/* Styling sheet for index.html */
 
-/* Box Model Hack */
-*{
-  box-sizing: border-box;
+
+* {
+	box-sizing: border-box;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-img{
-  display: block;
-  margin: 0 auto;
-  width: 25%;
+img {
+	display: block;
+	margin: 0 auto;
+	width: 25%;
 }
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
