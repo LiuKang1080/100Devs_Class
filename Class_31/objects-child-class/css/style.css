@@ -1,0 +1,14 @@
+/* Styling sheet for index.html */
+
+
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}

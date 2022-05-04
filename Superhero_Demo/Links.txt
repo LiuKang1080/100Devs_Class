@@ -1,0 +1,13 @@
+- Official images from the wiki:
+	Marvel:
+		https://marvelcinematicuniverse.fandom.com/wiki/Category:Characters
+	DC:
+		https://dcextendeduniverse.fandom.com/wiki/DC_Extended_Universe_Wiki
+
+- How to create cards with HTML and CSS: 
+	https://www.w3schools.com/howto/howto_css_cards.asp
+
+- Hide or Show elements on the HTML page by toggling the display: none property:
+	https://www.geeksforgeeks.org/hide-or-show-elements-in-html-using-display-property/
+
+- Use the bachelor code as the starting template
